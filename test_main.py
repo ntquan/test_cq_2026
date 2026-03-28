@@ -21,7 +21,7 @@ class TestCalculateFunctions(unittest.TestCase):
 
     # write test calculate_sub_function
     def test_calculate_sub_function_valid(self):
-        self.assertEqual(calculate_sub_function(5, 3), 1)
+        self.assertEqual(calculate_sub_function(5, 3), 2)
 
     def test_calculate_sub_function_negative(self):
         with self.assertRaises(ValueError):
