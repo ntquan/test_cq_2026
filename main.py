@@ -29,6 +29,11 @@ def calculate_sub_function(a: int, b: int) -> int:
         raise ValueError("Cả hai số phải là số nguyên dương.")
     return a - b
 
+# Create calculate mul function for me
+def calculate_mul_function(a: int, b: int) -> int:
+    if a < 0 or b < 0:
+        raise ValueError("Cả hai số phải là số nguyên dương.")
+    return a * b
 
 # Main function
 if __name__ == "__main__":
