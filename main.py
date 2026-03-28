@@ -23,6 +23,12 @@ def get_numbers_from_user():
         except ValueError as e:
             print(f"Lỗi: {e}. Vui lòng nhập lại.")
 
+# create calculate sub function for me
+def calculate_sub_function(a: int, b: int) -> int:
+    if a < 0 or b < 0:
+        raise ValueError("Cả hai số phải là số nguyên dương.")
+    return a - b
+
 # Main function
 if __name__ == "__main__":
     numbers = get_numbers_from_user()
