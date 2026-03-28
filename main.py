@@ -29,6 +29,7 @@ def calculate_sub_function(a: int, b: int) -> int:
         raise ValueError("Cả hai số phải là số nguyên dương.")
     return a - b
 
+
 # Main function
 if __name__ == "__main__":
     numbers = get_numbers_from_user()
